@@ -18,7 +18,7 @@ public class Main extends PApplet {
     private List<MatrixColumn> columns;
 
     public void settings() {
-        size(1800, 805);
+        size(1280, 640);
     }
 
     @Override
@@ -36,6 +36,7 @@ public class Main extends PApplet {
     public void draw() {
         background(13, 2, 8);
         drawSymbols();
+        save("MatrixRain.png");
     }
 
     private void drawSymbols() {
